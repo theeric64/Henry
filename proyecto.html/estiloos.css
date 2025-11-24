@@ -1,0 +1,176 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+ padding: 30px;
+    
+    background: rgb(0, 0, 0);
+}
+body.inf{
+   background-color: rgb(34, 123, 7);
+    color: #FF5722;
+    font-family: fantasy;
+    font-weight: 300; 
+       background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+
+}
+p.inf4{
+    color: orangered;
+    font-family: cursive;
+    font-weight: 900;
+}
+img.inf5,
+img.inf6 {
+  height: 300px; 
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  margin: 10px;
+  transition: transform 0.3s ease;
+  top: 60px;
+  margin-top: 70px;
+}
+
+img.inf5:hover,
+img.inf6:hover {
+  transform: scale(1.05);
+}
+
+img.inf5 {
+  opacity: 0.8;
+}
+
+img.inf6 {
+  opacity: 0.8;
+}
+
+
+h2.inf3{
+background-color: maroon;
+    color: #FF5722;
+    font-family: fantasy;
+    font-weight: 300;
+}
+
+img.inf5{
+    position: absolute;
+  top: 265px;
+  left: 1020px;
+
+}
+img.inf6{
+      position: absolute;
+  top: 265px;
+  right: 1300px;
+}
+a.inf7{
+  right: 800px;
+}
+
+.his{
+    background-image: url("imagenes.css/INTER\ Shibuya.jpg");
+    ::before{
+        opacity: 0.1;
+    }
+}
+
+
+
+table {
+  width: 80%; 
+  border-collapse: collapse;
+  background-color: beige;
+  font-family: Arial, sans-serif;
+  font-size: 12px; 
+  margin: 20px auto;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 6px 8px; 
+  text-align: center;
+}
+
+th {
+  background-color: #f5deb3;
+  font-weight: bold;
+  color: #333;
+}
+
+tr:nth-child(even) {
+  background-color: #fdf5e6;
+}
+
+tr:hover {
+  background-color: #ffe4b5;
+}
+
+.footer-imagenes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 40px 0;
+  background-color: #f5deb3;
+  width: 100%;
+  margin-top: 100px;
+  flex-direction: row;
+}
+
+/* Centrado vertical en toda la página */
+body.dis {
+  margin: 0;
+  padding: 0;
+  background-color: #fffaf0;
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+/* Contenedor horizontal para las imágenes */
+.contenedor-imagenes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  padding: 30px;
+  background-color: #f5deb3;
+  width: 100%;
+  flex-wrap: wrap; /* permite que se ajusten si no caben */
+}
+
+/* Imágenes más grandes y estilizadas */
+img.dis6,
+img.dis7,
+img.dis8,
+img.dis9,
+img.dis10,
+img.dis11 {
+  height: 160px; /* tamaño más grande */
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  opacity: 0.85;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+img.dis6:hover,
+img.dis7:hover,
+img.dis8:hover,
+img.dis9:hover,
+img.dis10:hover,
+img.dis11:hover {
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+
+
+
