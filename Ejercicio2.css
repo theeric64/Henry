@@ -1,0 +1,29 @@
+   nav {
+      width: 200px;              /* ancho del menú */
+      background-color: #f4f4f4; /* color de fondo */
+      padding: 10px;
+      border: 1px solid #ddd;
+    }
+
+    nav ul {
+      list-style: none;  /* quitar viñetas */
+      margin: 0;
+      padding: 0;
+    }
+
+    nav li {
+      margin: 8px 0;     /* espacio entre elementos */
+    }
+
+    nav a {
+      display: block;    /* ocupa todo el ancho */
+      text-decoration: none;
+      color: #333;
+      padding: 8px;
+      border-radius: 4px;
+    }
+
+    nav a:hover {
+      background-color: #0078d4; /* color al pasar el mouse */
+      color: #fff;
+    }

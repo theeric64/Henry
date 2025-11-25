@@ -1,0 +1,70 @@
+ :root {
+      --gap: 16px;
+      --min-card: 220px; 
+      --radius: 10px;
+    }
+
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+      background: #0f1216;
+      color: #e9eef4;
+    }
+
+    .wrapper {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 24px;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(var(--min-card), 1fr));
+      gap: var(--gap);
+      align-items: start;
+    }
+
+    .card {
+      background: #161b22;
+      border: 1px solid #232b36;
+      border-radius: var(--radius);
+      overflow: hidden;
+      box-shadow: 0 6px 16px rgba(0,0,0,0.35);
+      transition: transform 160ms ease, box-shadow 160ms ease;
+    }
+
+    .card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 28px rgba(0,0,0,0.45);
+    }
+
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      display: block;
+      background: #0b0e12;
+    }
+
+    .card .content {
+      padding: 12px 14px 14px;
+    }
+
+    .card .title {
+      font-size: 0.98rem;
+      font-weight: 600;
+      margin: 0 0 6px;
+      color: #f0f6fc;
+    }
+
+    .card .desc {
+      font-size: 0.9rem;
+      color: #c5d1e0;
+      margin: 0;
+    }
+
+
+    @media (max-width: 380px) {
+      :root { --min-card: 170px; }
+      .card img { height: 160px; }
+    }
